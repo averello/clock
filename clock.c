@@ -31,7 +31,7 @@ static const char *const options = "tboxlh"; /* Possible options */
 static const char *const formatoptions = "l"; /* Possible options */
 static struct tm *loctime = NULL;
 static time_t clocktime;
-static const char *const licence = "clock Copyright (C) 2012 George Boumis\nThis program comes with ABSOLUTELY NO WARRANTY;\nThis is free software, and you are welcome to redistribute it\nunder certain conditions;";
+static const char *const licence = "clock - print time in various formats (12h)\nCopyright (C) 2012 George Boumis\nThis program comes with ABSOLUTELY NO WARRANTY;\nThis is free software, and you are welcome to redistribute it\nunder certain conditions;";
 
 
 void convertto( const char option, const char format, const struct tm*localtime );
