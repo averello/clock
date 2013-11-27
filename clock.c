@@ -35,6 +35,7 @@ int main ( int argc, char *argv[] ) {
 	loctime = localtime(&clocktime);
 	loctime->tm_year += 1900; /* Needed because tm_year equals year - 1900 */
 	loctime->tm_hour %= 12;
+	printf("\nPrint Clock Time: in hr:min:sec");
 
 	format = getopt(argc, argv, formatoptions);
 #ifdef DEBUG_FLAG
