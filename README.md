@@ -29,3 +29,6 @@ You can also use it with `watch`:
 watch -n 1 ./clock -b
 ```
 
+# Licence
+This software is distributed under the MIT Licence.
+
