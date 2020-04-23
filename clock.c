@@ -30,6 +30,7 @@
 #include <string.h>
 #include <unistd.h>
 #include <assert.h>
+#include <stdint.h>
 
 extern char *optarg;
 extern int optind, opterr, optopt;
